@@ -1,49 +1,73 @@
-# Starlight Starter Kit: Basics
+# Turing Club Official Website 🔧
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+🌟 The official website of TuringClub
+
+## 🎯 About
+
+TuringClub is a programming society dedicated to fostering technological excellence and innovation. We provide comprehensive learning opportunities including Java programming courses, game development workshops, and 3D rendering tutorials. Our mission is to create a collaborative environment where students can develop programming skills, pursue technical certifications, and build meaningful projects together.
+
+## 🚀 Live Website
+
+GitHub Pages: [https://turingclub.pages.dev](https://turingclub.pages.dev)
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Astro](https://astro.build/)
+- **Styling**: [Starlight](https://starlight.astro.build/)
+- **Deployment**: Cloudflare Pages
+
+## 🔧 Development
+
+### Prerequisites
+
+- Node.js
+- npm or pnpm
+
+### Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/merlette/turing.git
+cd turing
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+### Project Structure
 
 ```
-npm create astro@latest -- --template starlight
+src/
+├── content/docs/         # Documentation content
+│   ├── guides/           # Programming guides
+│   │   └── programming/  # Java and fundamentals
+│   └── index.mdx         # Homepage
+├── assets/               # Images and static assets
+└── content.config.ts     # Content configuration
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🤝 Contributing
 
-## 🚀 Project Structure
+We welcome everyone to contribute to programming guide!
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-guide`)
+3. Add your content or improvements
+4. Commit your changes (`git commit -m 'docs: add new programming guide'`)
+5. Push to the branch (`git push origin feature/new-guide`)
+6. Open a Pull Request
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+## 📄 License
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 🙏 Acknowledgments
 
-Static assets, like favicons, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- [Astro](https://astro.build/) - The fantastic static site generator
+- [Starlight](https://starlight.astro.build/) - The excellent documentation framework
