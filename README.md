@@ -16,31 +16,26 @@ GitHub Pages: [https://turingclub.pages.dev](https://turingclub.pages.dev)
 - **Styling**: [Starlight](https://starlight.astro.build/)
 - **Deployment**: Cloudflare Pages
 
-## 🔧 Development
+## 🚀 Quick Start
 
-### Prerequisites
-
-- Node.js
-- npm or pnpm
-
-### Getting Started
+### 1. Clone the project
 
 ```bash
-# Clone the repository
 git clone https://github.com/merlette/turing.git
 cd turing
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
 ```
 
-### Project Structure
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start development server
+```bash
+npm run dev
+```
+
+## 📁 Project Structure
 
 ```
 src/
